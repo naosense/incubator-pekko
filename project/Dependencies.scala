@@ -169,8 +169,8 @@ object Dependencies {
 
       val dockerClient = Def.setting {
         Seq(
-          "com.github.docker-java" % "docker-java-core" % "3.3.4" % Test,
-          "com.github.docker-java" % "docker-java-transport-httpclient5" % "3.3.4" % Test)
+          "com.github.docker-java" % "docker-java-core" % "3.3.5" % Test,
+          "com.github.docker-java" % "docker-java-transport-httpclient5" % "3.3.5" % Test)
       }
 
       val jackson = Def.setting {
